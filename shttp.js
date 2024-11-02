@@ -20,8 +20,8 @@ const raw_proxy_sites = [
 'https://spys.me/socks.txt',
 'https://raw.githubusercontent.com/elliottophellia/yakumo/master/results/http/global/http_checked.txt',
 'https://proxydb.net/?country=VN',
-'https://proxydb.net/',
 'https://openproxy.space/list/http',
+"https://daudau.org/api/http.txt",
 ];
 async function fetchProxies() {
   for (const site of raw_proxy_sites) {
